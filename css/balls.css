@@ -1,0 +1,133 @@
+#ball1 {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  top:0;
+  left:9%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade1 {
+  50% {
+    top: 60%;
+    opacity:0;
+    left:100%;
+  }
+}
+#ball2 {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  top:52%;
+  left:9%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade2 {
+  50% {
+    top: 80%;
+    opacity:0;
+    left:67%;
+  }
+}
+#ball3 {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  top:80%;
+  left:9%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade3 {
+  50% {
+    top: 27%;
+    opacity:0;
+    left:92%;
+  }
+}
+#ball4 {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  top:3%;
+  left:93%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade4;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade4 {
+  50% {
+    top: 70%;
+    opacity:0;
+    left:0%;
+  }
+}
+#ball5 {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto;
+  position: fixed;
+  top:15%;
+  left:9%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade5;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade5 {
+  50% {
+    top: 60%;
+    opacity:0;
+    left:100%;
+    width: 180px;
+    height: 180px;
+  }
+
+}
