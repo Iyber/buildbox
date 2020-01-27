@@ -59,6 +59,7 @@ form{
 form section p {
   font-size: 13px;
   text-align: center;
+  marhin: 3px;
 }
 form input{
   border-radius: 3px;
@@ -79,9 +80,7 @@ form select{
   width: 14em;
   height: 2em;
 }
-p{
-  margin:2.1px;
-}
+
 form input:focus{
    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
    padding: 3px 0px 3px 3px;
