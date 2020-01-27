@@ -101,7 +101,7 @@ button{
   margin-bottom: 3px;
   cursor: pointer;
 }
-@media screen and (min-width:767px) {
+@media all and (min-width:767px) {
   /* Scroll Bar Designs Unsupported in firefox*/
   ::-webkit-scrollbar {
     width: 22px;
